@@ -1,0 +1,5 @@
+[
+  { "id": 1, "title": "Modern Family Home", "price": 500000, "description": "A beautiful home in a great neighborhood." },
+  { "id": 2, "title": "Luxury Villa", "price": 1200000, "description": "A luxurious villa with sea views." },
+  { "id": 3, "title": "Cozy Apartment", "price": 300000, "description": "Perfect for city living." }
+]

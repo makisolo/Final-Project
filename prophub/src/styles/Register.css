@@ -1,0 +1,90 @@
+
+.register-page {
+  font-family: 'Poppins', sans-serif;
+  padding: 40px 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+
+.register-header h1 {
+  font-size: 2rem;
+  color: #0070f3; 
+  margin-bottom: 10px;
+}
+
+.register-header p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: left;
+}
+
+.register-form label {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.register-form input,
+.register-form select {
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.register-form input:focus,
+.register-form select:focus {
+  border-color: #0070f3;
+  box-shadow: 0 0 8px rgba(0, 112, 243, 0.2);
+  outline: none;
+}
+
+.register-form button {
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: white;
+  background-color: #0070f3;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.register-form button:hover {
+  background-color: #005bb5;
+  transform: scale(1.05);
+}
+
+.register-form button:active {
+  transform: scale(1);
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .register-page {
+    padding: 20px;
+  }
+
+  .register-header h1 {
+    font-size: 1.8rem;
+  }
+}
